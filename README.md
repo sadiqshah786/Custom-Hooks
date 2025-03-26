@@ -11,6 +11,12 @@
 ## 📌 About  
 As a React developer, efficiency is everything! That’s why I love exploring **React Haiku**—a lightweight library packed with powerful hooks & utilities that streamline development.  
 
+## 📜 License
+MIT
+
+💻 Explore React Haiku and speed up your workflow:
+🔗 ![React Haiku Documentation](https://www.reacthaiku.dev/docs/intro)   
+
 💡 Whether you're handling state, effects, events, or user interactions, this library has a hook for every need! Here are just a few:  
 
 - 🔋 **useBatteryStatus** – Monitor battery level & charging state.  
@@ -33,8 +39,4 @@ As a React developer, efficiency is everything! That’s why I love exploring **
 ```sh
 npm install react-haiku
 
-## 📜 License
-MIT
 
-💻 Explore React Haiku and speed up your workflow:
-🔗 ![React Haiku Documentation](https://www.reacthaiku.dev/docs/intro)   
