@@ -32,3 +32,9 @@ As a React developer, efficiency is everything! That’s why I love exploring **
 ## 📦 Installation  
 ```sh
 npm install react-haiku
+
+## 📜 License
+MIT
+
+💻 Explore React Haiku and speed up your workflow:
+🔗 ![React Haiku Documentation](https://www.reacthaiku.dev/docs/intro)   
