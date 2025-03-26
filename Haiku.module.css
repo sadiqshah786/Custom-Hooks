@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 1.5rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .card {
+    width: 20rem;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cardTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .cardValue {
+    font-size: 1.125rem;
+  }
+  
+  .batteryCharging {
+    width: 3rem;
+    height: 3rem;
+    color: #22c55e;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .batteryFull {
+    width: 3rem;
+    height: 3rem;
+    color: #22c55e;
+  }
+  
+  .batteryMedium {
+    width: 3rem;
+    height: 3rem;
+    color: #facc15;
+  }
+  
+  .batteryLow {
+    width: 3rem;
+    height: 3rem;
+    color: #ef4444;
+  }
+  
+  .networkOnline {
+    width: 3rem;
+    height: 3rem;
+    color: #22c55e;
+  }
+  
+  .networkOffline {
+    width: 3rem;
+    height: 3rem;
+    color: #ef4444;
+  }
+  
+  .orientationIcon {
+    width: 3rem;
+    height: 3rem;
+    color: #3b82f6;
+  }
+  
+  .clipboardIcon {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .sizeIcon {
+    width: 3rem;
+    height: 3rem;
+    color: #9333ea;
+  }
+  
+  .fullscreenIcon {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
